@@ -1,0 +1,22 @@
+
+/* login 修改默认 nav-bar */
+uni-page-head {
+    border-bottom: none;
+}
+.uni-page-head{
+	background-color: rgba(255,255,255,0)!important;
+	/* color: #01C4B5 */
+}
+.uni-btn-icon{
+	color: rgba(255,255,255,0)!important;
+	/* background-image: url(./static/img/icon/return.png); */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+uni-page-head .uni-page-head__title{
+	
+}
+/* login 修改默认 nav-bar end */
+
+

@@ -1,0 +1,408 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+	
+		{
+			"path": "pages/index/main",
+			"style": {
+				"navigationBarTitleText": "机器人",
+                "app-plus": {
+                    "titleNView": false //禁用原生导航栏
+                }
+			}
+		},{
+			"path": "pages/member/main",
+			"style": {
+				"navigationBarTitleText": "会员",
+                "app-plus": {
+                    // "titleNView": false //禁用原生导航栏
+                }
+			}
+		},{
+			"path": "pages/robot/main",
+			"style": {
+				"navigationBarTitleText": "AI机器人",
+                "app-plus": {
+                    "titleNView": false //禁用原生导航栏
+                }
+			}
+		},{
+			"path": "pages/robot/autoPublish",
+			"style": {
+				"navigationBarTitleText": "自动发布",
+                "app-plus": {
+                    // "titleNView": false //禁用原生导航栏
+						"buttons" : [
+							{
+								"text" : "保存",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+                }
+			}
+		},{
+			"path": "pages/robot/material",
+			"style": {
+				"navigationBarTitleText": "素材分组管理",
+                "app-plus": {
+                    // "titleNView": false //禁用原生导航栏
+                }
+			}
+		},{
+			"path": "pages/robot/task",
+			"style": {
+				"navigationBarTitleText": "任务管理",
+                "app-plus": {
+					"titleNView" : {
+						// "type": "transparent", //导航栏的透明渐变
+						"buttons" : [
+							{
+								"text" : "添加任务",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/robot/addWordsPictureLink",
+			"style": {
+				"navigationBarTitleText": "添加朋友圈",
+                "app-plus": {
+                    // "titleNView": false //禁用原生导航栏
+                }
+			}
+		},{
+			"path": "pages/robot/aiList",
+			"style": {
+				"navigationBarTitleText": "AI机器人",
+                "app-plus": {
+                    // "titleNView": false //禁用原生导航栏
+                }
+			}
+		},{
+			"path": "pages/robot/friendList",
+			"style": {
+				"navigationBarTitleText": "朋友圈列表",
+                "app-plus": {
+					"titleNView" : {
+						// "type": "transparent", //导航栏的透明渐变
+						"buttons" : [
+							{
+								"text" : "添加任务",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/robot/record",
+			"style": {
+				"navigationBarTitleText": "发送记录",
+                "app-plus": {
+                    // "titleNView": false //禁用原生导航栏
+                }
+			}
+		},{
+			"path": "pages/robot/start",
+			"style": {
+				"navigationBarTitleText": "启动机器人",
+                "app-plus": {
+                    // "titleNView": false //禁用原生导航栏
+                }
+			}
+		},{
+			"path": "pages/robot/buy",
+			"style": {
+				"navigationBarTitleText": "添加机器人",
+                "app-plus": {
+                    // "titleNView": false //禁用原生导航栏
+                }
+			}
+		},{
+			"path": "pages/find/main",
+			"style": {
+				"navigationBarTitleText": "发现",
+                "app-plus": {
+                    // "titleNView": false //禁用原生导航栏
+                }
+			}
+		}, {
+			"path": "pages/user/main",
+			"style": {
+				"navigationBarTitleText": "我的",
+                "app-plus": {
+                    "titleNView": false //禁用原生导航栏
+                }
+			}
+		}, {
+			"path": "pages/user/modifyUserInfo",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+                "app-plus": {
+                    // "titleNView": false //原生导航栏   
+					// uni-app导航栏开发指南 https://ask.dcloud.net.cn/article/34921
+					// titleNView 详见:导航栏 https://uniapp.dcloud.io/collocation/pages?id=app-titlenview
+					"titleNView" : {
+						// "type": "transparent", //导航栏的透明渐变
+						"buttons" : [
+							{
+								"text" : "保存",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/user/modifyNikeName",
+			"style": {
+				"navigationBarTitleText": "修改昵称",
+                "app-plus": {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"text" : "保存",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/user/modifyGender",
+			"style": {
+				"navigationBarTitleText": "修改性别",
+                "app-plus": {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"text" : "保存",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/user/modifyPhone",
+			"style": {
+				"navigationBarTitleText": "更换手机号码",
+                "app-plus": {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"text" : " ",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/user/modifyPhoneDefine",
+			"style": {
+				"navigationBarTitleText": "更换手机号码",
+                "app-plus": {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"text" : " ",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/user/bankList",
+			"style": {
+				"navigationBarTitleText": "绑定银行卡",
+                "app-plus": {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"text" : " ",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/user/bankBind",
+			"style": {
+				"navigationBarTitleText": "绑定银行卡",
+                "app-plus": {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"text" : " ",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/user/alipayBind",
+			"style": {
+				"navigationBarTitleText": "支付宝绑定",
+                "app-plus": {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"text" : " ",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/user/passCheck",
+			"style": {
+				"navigationBarTitleText": "流光实人通行证",
+                "app-plus": {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"text" : " ",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/user/authenticationInfo",
+			"style": {
+				"navigationBarTitleText": "认证信息",
+                "app-plus": {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"text" : " ",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/user/authenticationInfoDefine",
+			"style": {
+				"navigationBarTitleText": "认证信息",
+                "app-plus": {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"text" : " ",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/user/modifySet",
+			"style": {
+				"navigationBarTitleText": "设置",
+                "app-plus": {
+					"titleNView" : {
+						"buttons" : [
+							{
+								"text" : " ",
+								"fontSize" : "14",
+								"badgeText" : ""
+							}
+						]
+					}
+                }
+			}
+		},{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "登录页"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+                "app-plus": {
+                    "titleNView": false //禁用原生导航栏
+                }
+			}
+		}, {
+			"path": "pages/login/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/login/reg-define",
+			"style": {
+				"navigationBarTitleText": "注册确定"
+			}
+		}, {
+			"path": "pages/login/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/login/pwd-define",
+			"style": {
+				"navigationBarTitleText": "密码确定"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0CBBAE",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/main",
+			"text": "首页",
+			"iconPath": "static/img/icon/tabBar-home.png",
+			"selectedIconPath": "static/img/icon/tabBar-homeHL.png"
+		},{
+			"pagePath": "pages/member/main",
+			"text": "会员",
+			"iconPath": "static/img/icon/tabBar-member.png",
+			"selectedIconPath": "static/img/icon/tabBar-memberHL.png"
+		}, {
+			"pagePath": "pages/robot/main",
+			"text": "AI机器人",
+			"iconPath": "static/img/icon/tabBar-robot.png",
+			"selectedIconPath": "static/img/icon/tabBar-robotHL.png"
+		},{
+			"pagePath": "pages/find/main",
+			"text": "发现",
+			"iconPath": "static/img/icon/tabBar-find.png",
+			"selectedIconPath": "static/img/icon/tabBar-findHL.png"
+		}, {
+			"pagePath": "pages/user/main",
+			"text": "我的",
+			"iconPath": "static/img/icon/tabBar-user.png",
+			"selectedIconPath": "static/img/icon/tabBar-userHL.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	}
+}
