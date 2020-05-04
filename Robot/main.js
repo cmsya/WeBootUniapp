@@ -4,7 +4,7 @@ import App from './App'
 import store from './store'
 
 // import { http } from '@/utils/service.js' // 全局挂载引入，配置相关在该index.js文件里修改
-// Vue.prototype.$http = http
+// Vue.prototype.$http = http   text
 
 
 Vue.config.productionTip = false
